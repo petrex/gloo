@@ -49,6 +49,7 @@ if args.output_directory:
 
 includes = [
     "gloo/*cuda*",
+    "gloo/*nccl*",
 ]
 
 ignores = [
