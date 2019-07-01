@@ -117,7 +117,7 @@ if(USE_ROCM)
   endif()
 endif()
 
-if(USE_ROCM AND USE_RCCL)
+if(USE_ROCM AND USE_NCCL)
   # NCCL_EXTERNAL is set if using the Caffe2 bundled version of NCCL
   if(NCCL_EXTERNAL)
     include_directories(SYSTEM ${NCCL_INCLUDE_DIRS})
